@@ -340,6 +340,10 @@ li .active {
     vertical-align: middle;
 }
 
+.features div:nth-child(1) span:hover:before {
+    content: url(../img/nadezhnost-hover.png);
+}
+
 .features div:nth-child(2) span::before {
     content: url(../img/garantiya.png);
     margin-right: 10px;
@@ -347,11 +351,19 @@ li .active {
     vertical-align: middle;
 }
 
+.features div:nth-child(2) span:hover:before {
+    content: url(../img/garantiya-hover.png);
+}
+
 .features div:nth-child(3) span::before {
     content: url(../img/vozmozhnost.png);
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.features div:nth-child(3) span:hover:before {
+    content: url(../img/vozmozhnost-hover.png);
 }
 
 /*goods*/
@@ -384,10 +396,14 @@ li .active {
 
 .goods .item-description {
     display: block;
-    text-align: center;
+    
     text-decoration: none;
     margin-bottom: 2px;
 } 
+
+.goods .pic {
+    text-align: center;
+}
 
 .goods .description h3,
 .goods .description p {
@@ -399,6 +415,7 @@ li .active {
 .goods .description h3 {
     font-weight: normal;
     font-size: 16px;
+    text-align: center;
 }
 
 .goods .description p {
@@ -430,6 +447,10 @@ li .active {
     font-size: 17px;
     background-color: #6288ac;
     padding: 2px 10px;
+}
+
+.goods .price-btn .btn:hover {
+    background-color: #ddbe8f;
 }
 
 /*Footer*/
