@@ -203,9 +203,114 @@ li .active {
 }
 
 .aside {
-    width: 270px;
+    width: 270px;/*подобрать*/
     float: left;
-    background: rgba(255, 200, 200, 0.5);/*убрать*/
+    box-sizing: border-box;
+    padding: 2px 5px;
+    /*убратьbackground: rgba(255, 200, 200, 0.5);*/
+}
+
+.aside .site-search form {
+    position: relative;
+    width: 260px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.aside .site-search form button {
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    cursor: pointer;
+    border: none;
+    width: 25px;
+    height: 19px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.aside .site-search form button::before {
+    content: url(../img/search.png);
+}
+
+.aside .site-search form input {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 100%;
+    height: 31px;
+    color: #1b1b1b;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.29);
+    border-radius: 2px;
+}
+
+.aside .sale {
+    margin: 0 auto;
+    width: 221px;
+}
+
+.aside .sale .offer {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.aside .sale h3 a{
+    font-size: 16px;
+    color: #006ab3;
+    text-decoration: none;
+}
+
+.aside .sale-item {
+    padding-top: 15px;
+    /*background: rgba(255, 100, 171, 0.5);*/
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #cecdcc;
+    padding-bottom: 45px;
+}
+
+.aside .second {
+    border-bottom: none;
+}
+
+.aside .sale-item a {
+    text-decoration: none;
+}
+
+.aside .sale-item h3{
+    color: #4d4c4c;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.aside .sale-item h3+img {
+    width: 170px;
+    height: 139px;
+}
+
+.aside .sale-item img+img {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.aside .sale .all{
+    text-align: center;
+}
+
+.aside .sale .all a {
+    text-decoration: none;
+    color: #006ab3;
+    font-size: 14px;
+}
+
+.aside .sale .all a::after {
+    content: url(../img/arrow.png);
+    margin-left: 10px;
 }
 
 .content {
@@ -388,6 +493,18 @@ li .active {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.08);
     /*margin-bottom: 35px;*/
+}
+
+.goods .item .volume {
+    color: #1b1b1b;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    bottom: 80px;
+}
+
+.goods .item .volume span{
+    font-size: 12px;
 }
 
 .goods .item:hover {
