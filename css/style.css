@@ -196,6 +196,7 @@ li .active {
 
 .main .about {
     margin-bottom: 60px;
+    margin-top: 107px;
 }
 
 .wraper {
@@ -313,6 +314,99 @@ li .active {
     margin-left: 10px;
 }
 
+.socia-group {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 14px;
+}
+
+.socia-group img {
+    width: 239px;
+    height: 290px;
+}
+
+.contact-us .our-contact {
+    text-align: center;
+}
+
+.contact-us .our-contact a {
+    color: #006ab3;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #c2c2c5;
+    border-top: 1px solid #c2c2c5;
+    padding: 5px 0;
+}
+
+.articles {
+    margin: 0 auto;
+    width: 240px;
+}
+
+.articles h3{
+    box-sizing: border-box;
+    height: 32px;
+    text-align: center;
+    padding-top: 7px;
+    background-color: #00a2e8;
+    border-radius: 2px;
+    color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.articles .article {
+    position: relative;
+    display: block;
+    color: #1b1b1b;
+    font-size: 11px;
+    line-height: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #c6c7c7;
+    padding-bottom: 8px;
+    margin-top: 16px;
+    /*background-image: linear-gradient(to top, rgba(78, 80, 82, 0.05) 0%, rgba(157, 175, 203, 0.05) 50%, rgba(78, 80, 82, 0.05) 100%);*/
+}
+
+.articles .article .img-date{
+    position: absolute;
+    top: 4px;
+}
+
+.articles .article .date {
+    margin-left: 6px;
+}
+
+.articles .article p {
+    margin: 0;
+    margin-left: 60px;
+}
+
+.articles .article .style-text {
+    color: #3482ca;
+}
+
+.articles .article .article-arrow::after {
+    content: url(../img/arrow_article.png);
+    margin-left: 5px;
+}
+
+.btn-article {
+    box-sizing: border-box;
+    display: block;
+    width: 122px;
+    height: 26px;
+    background-color: #00a2e8;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin: 26px auto 0;
+    padding-top: 5px;
+}
+
 .content {
     float: right;
     /*убратьbackground: rgba(255, 234, 100, 0.5);*/
@@ -419,8 +513,9 @@ li .active {
 }
 
 .features div {
-    /*background: rgba(255, 234, 100, 0.5);*/
-    flex-grow: 1;
+    /*background: rgba(255, 234, 100, 0.5);
+    flex-grow: 1;*/
+    width: 33%;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
@@ -513,7 +608,7 @@ li .active {
 
 .goods .item-description {
     display: block;
-    
+    color: #1b1b1b;
     text-decoration: none;
     margin-bottom: 2px;
 } 
@@ -569,6 +664,8 @@ li .active {
 .goods .price-btn .btn:hover {
     background-color: #ddbe8f;
 }
+
+/*about*/
 
 /*Footer*/
 
